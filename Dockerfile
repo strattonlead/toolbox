@@ -1,2 +1,2 @@
-FROM alpine
-apt-get install -y bash ssh openssh
+FROM debian
+RUN apt-get install -y bash ssh openssh
